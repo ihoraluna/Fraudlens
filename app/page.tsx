@@ -825,7 +825,7 @@ export default function Home() {
                 />
               </div>
               <div className="sm:col-span-1">
-                <label className="mb-1 block text-xs font-medium text-stone-600">Your Email <span className="text-stone-400 font-normal">(Optional)</span></label>
+                <label className="mb-1 block text-xs font-medium text-stone-600">Your Email <span className="text-stone-400 font-normal"></span></label>
                 <input
                   type="email"
                   value={contactEmail}
